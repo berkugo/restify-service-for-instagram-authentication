@@ -6,7 +6,7 @@ This restify service will be listening PORT 5000 as default.
 
 If your app is development mode, do not forget to add another tester account on your dashborad.
 
-After authentcation step, the client or the tester will be redirected to https://your-ip-address:yourport/auth with a code parameter in query and then the script is going to take and use this code parameter to request for Short Lived Access Token from Instagram Basic Display API in the first place.After then another request will be sent to exchange your Short Lived Access Token with Long Live Access Token and will respond you this Long Lived Access Token data as a JSON object. 
+After authentcation step, the client or the tester will be redirected to https://your-ip-address:yourport/auth with a code parameter in query and then the script is going to take and use this code parameter to request for Short Lived Access Token from Instagram Basic Display API in the first place. After then another request will be sent to exchange your Short Lived Access Token with Long Live Access Token and will respond you this Long Lived Access Token data as a JSON object. 
 
 Use these endpoints in your app while sending requests to fetch the data of related/authenticated user.
 
